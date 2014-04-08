@@ -1,0 +1,17 @@
+{
+  "name": "socket_test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "polvo": "^0.6.4",
+    "coffee-script": "^1.7.1",
+    "socket.io": "^0.9.16",
+    "supervisor": "*"
+  }
+}
