@@ -1,5 +1,5 @@
 server:
-	supervisor src/server.coffee
+	supervisor src/server/server.coffee
 
 polvo:
 	polvo -ws
