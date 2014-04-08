@@ -10,7 +10,7 @@ class App
 		@outgoingChatMessage.keypress @on_submit
 		@delete_btn.on 'click', @delete_messages
 
-		@iosocket = io.connect 'http://localhost:8888'
+		@iosocket = io.connect 'http://stefano.local:8888'
 
 		@iosocket.once 'first_data', @on_first_data
 		@iosocket.on 'message', @on_message
@@ -38,6 +38,7 @@ class App
 
 
 	on_messages_removed: ( data ) =>
+		console.log data
 		@incomingChatMessages.html ''
 
 
