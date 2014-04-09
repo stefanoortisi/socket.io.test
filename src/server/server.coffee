@@ -23,7 +23,7 @@ Message = mongoose.model 'Message', MessageSchema
 # Socket Connection
 console.log "socket started at #{conf.port}"
 
-io.set('log level', 1);
+io.set 'log level', 1
 
 io.sockets.on 'connection', (socket) ->
 

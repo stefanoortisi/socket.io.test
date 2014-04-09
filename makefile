@@ -3,3 +3,6 @@ server:
 
 polvo:
 	polvo -ws
+
+iterm:
+	osascript ./start_iterm.scpt $(PWD)
